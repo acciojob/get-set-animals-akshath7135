@@ -36,9 +36,9 @@ window.Dog = Dog;
 window.Cat = Cat;
 
 let myCat = new Cat("Siamese");
-console.log(myCat.makesound());
-console.log(myCat.purr());
+myCat.makesound();
+myCat.purr();
 let mydog= new Dog("Golden Retriever");
-console.log(mydog.makesound());
-console.log(mydog.bark());
+mydog.makesound();
+mydog.bark();
 
